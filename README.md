@@ -4,7 +4,7 @@
 
 * Interested in predicting likelihood of subscribing to a term loan based on demographic data
 
-*There are four datasets:
+* There are four datasets:
 1) bank-additional-full.csv with all examples (41188) and 20 inputs, ordered by date (from May 2008 to November 2010), very close to the data analyzed in [Moro et al., 2014]
 2) bank-additional.csv with 10% of the examples (4119), randomly selected from 1), and 20 inputs.
 3) bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs).
