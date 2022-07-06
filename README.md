@@ -15,6 +15,7 @@
 * The data is related with direct marketing campaigns of a Portuguese banking institution. 
 * The marketing campaigns were based on phone calls. 
 * The dataset we are using is [bank-full.csv](/bank-full.csv) with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs).
+* Number of instances= 45211 and Number of Attributes=17
 
 
 ## Questions we hope to answer
