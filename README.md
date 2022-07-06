@@ -3,6 +3,8 @@
 * Topic: Direct Marketing
 * We selected this topic because machine learning models can help improve direct marketing campaigns from the bank to target potential future customers
 
+* The data is related with direct marketing campaigns of a Portuguese banking institution.
+
 There are four datasets:
 1) bank-additional-full.csv with all examples (41188) and 20 inputs, ordered by date (from May 2008 to November 2010), very close to the data analyzed in [Moro et al., 2014]
 2) bank-additional.csv with 10% of the examples (4119), randomly selected from 1), and 20 inputs.
