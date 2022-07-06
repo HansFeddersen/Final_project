@@ -3,4 +3,4 @@
 * Topic: Direct Marketing
 * Reason why they selected their topic 
 * Description of their source of data 
-* Questions they hope to answer with the data
+* The classification goal is to predict if the client will subscribe a term deposit.
