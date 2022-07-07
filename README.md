@@ -17,6 +17,10 @@
 * The dataset we are using is [bank-full.csv](/bank-full.csv) with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs).
 * Number of instances= 45211 and Number of Attributes=17
 
+## Machine Learning model selected
+
+*
+
 
 ## Questions we hope to answer
 * The classification goal is to predict if the client will subscribe a term deposit.
