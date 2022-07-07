@@ -19,8 +19,8 @@
 
 ## Machine Learning model selected
 
-*Random Forest
-*Logistic Regression
+* Random Forest
+* Logistic Regression
 
 
 ## Questions we hope to answer
