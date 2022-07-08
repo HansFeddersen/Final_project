@@ -21,7 +21,7 @@
 
 * Random Forest
 * Logistic Regression
-* Test
+
 
 
 ## Questions we hope to answer
