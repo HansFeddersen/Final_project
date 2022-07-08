@@ -27,3 +27,7 @@
 * The classification goal is to predict if the client will subscribe a term deposit.
 * Which demographic variables have the most importance while determining whether the client subscribes or not?
 
+## Communication Protocol
+* Slack channel
+* Zoom
+
