@@ -21,9 +21,18 @@
 
 * Random Forest
 * Logistic Regression
+* Test
 
 
 ## Questions we hope to answer
 * The classification goal is to predict if the client will subscribe a term deposit.
 * Which demographic variables have the most importance while determining whether the client subscribes or not?
+
+## Communication protocols
+
+**The team will comunicate in three different ways:**
+
+* Slack Channel (Final-Project-Bank-Marketing-Data)
+* Zoom (meetings during class schedule)
+* Extra Zoom meetings if needed.
 
