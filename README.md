@@ -33,4 +33,3 @@
 * Slack Channel (Final-Project-Bank-Marketing-Data)
 * Zoom (meetings during class schedule)
 * Extra Zoom meetings when needed.
-
