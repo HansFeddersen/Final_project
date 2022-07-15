@@ -23,6 +23,7 @@
 * Logistic Regression
 
 ## Questions we hope to answer
+
 * The classification goal is to predict if the client will subscribe a term deposit.
 * Which demographic variables have the most importance while determining whether the client subscribes or not?
 
@@ -35,16 +36,20 @@
 * Extra Zoom meetings when needed.
 
 ## Description of the data exploration and analysis phase of the project
-### Pre-processing Data
+**Pre-processing Data**
 * Jupyter Notebook 
-## Scripts in Jupyter dependant on Pandas and SQL engine relational database
-### Panda used for preliminary data preprocessing
-# Read in raw .cvs data and preprocessed for model input
-## Clean the data to remove nulls, irrelevant data columns, convert string to numerical values, create bins of numerical data ranges to reduce noise
-# Feature selection:
-## Dropped balance and contact columns
-## Converted strings to value
-## Grouping 
+
+**Scripts in Jupyter dependant on Pandas and SQL engine relational database**
+
+**Pandas used for preliminary data preprocessing**
+
+* Read in raw .cvs data and preprocessed for model input
+* Clean the data to remove nulls, irrelevant data columns, convert string to numerical values, create bins of numerical data ranges to reduce noise
+
+**Feature selection:**
+* Dropped balance and contact columns
+* Converted strings to value
+* Grouping 
 ### age_group = ["<18","18-28","28-38",">38"]	
 ### duration_group = ["<103","103-180","180-319",">319"]
 * Training and Testing Classification
