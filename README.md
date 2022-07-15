@@ -66,6 +66,8 @@ make the model slower and possibily ineffective for real-time predictions.
 * Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear
 relationship between dependent and independent variables.
 
-## Dashboard
+* Dashboard
 ### Description of tools and interactive elements
 * Planning to use Tableau to create interactive charts that will address which demographic variables have the most importance while determining whether the client subscribes or not.
+###Path to Google Slide
+https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_5
