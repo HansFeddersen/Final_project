@@ -86,4 +86,4 @@ relationship between dependent and independent variables.
 ### Description of tools and interactive elements
 * Planning to use Tableau to create interactive charts that will address which demographic variables have the most importance while determining whether the client subscribes or not.
 
-* [Path to Google Slides](/https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_5)
+* [Path to Google Slides][(/https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_17)](https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_17)
