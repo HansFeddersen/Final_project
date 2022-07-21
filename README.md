@@ -8,7 +8,7 @@
 ## Reason for Selecting Topic
 
 * Machine learning models can help improve direct marketing campaigns from the bank to target potential future customers
-* This information can be used by oher banks or businneses to determine the efficency of direct marketing campaigns.
+* This information can be used by other banks or businesses to determine the efficency of direct marketing campaigns.
 
 ## Description of the Data Source
 
@@ -82,8 +82,12 @@ make the model slower and possibily ineffective for real-time predictions.
 * Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear
 relationship between dependent and independent variables.
 
-## Dashboard
+## Dashboard 
+
+**The Dashboard can be reviewed using the following link:**
+- https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes
+
 ### Description of tools and interactive elements
 * Planning to use Tableau to create interactive charts that will address which demographic variables have the most importance while determining whether the client subscribes or not.
 
-* [Path to Google Slides](/https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_5)
+* [Path to Google Slides][(/https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_17)](https://docs.google.com/presentation/d/1ndyXhv82vYUYCNXBWogu9qnl2aCWIHBR6GyQMjSj1Qo/edit#slide=id.g13d12802ede_1_17)
