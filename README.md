@@ -83,6 +83,10 @@ make the model slower and possibily ineffective for real-time predictions.
 relationship between dependent and independent variables.
 
 ## Dashboard
+
+**The Dashboard can be reviewed using the following link**
+- https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes
+
 ### Description of tools and interactive elements
 * Planning to use Tableau to create interactive charts that will address which demographic variables have the most importance while determining whether the client subscribes or not.
 
