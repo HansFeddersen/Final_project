@@ -82,7 +82,7 @@ make the model slower and possibily ineffective for real-time predictions.
 * Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear
 relationship between dependent and independent variables.
 
-## Dashboard
+## Dashboard 
 
 **The Dashboard can be reviewed using the following link:**
 - https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes
