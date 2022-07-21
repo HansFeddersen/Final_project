@@ -27,13 +27,6 @@
 * The classification goal is to predict if the client will subscribe a term deposit.
 * Which demographic variables have the most importance while determining whether the client subscribes or not?
 
-## Communication protocols 
-
-**The team will comunicate in three different ways:**
-
-* Slack Channel (Final-Project-Bank-Marketing-Data)
-* Zoom (meetings during class schedule)
-* Extra Zoom meetings when needed.
 
 ## Description of the data exploration and analysis phase of the project
 
@@ -76,11 +69,15 @@
 
 ## Explanation of model choice, incluing benefits and limitations
 
-* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also 
-make the model slower and possibily ineffective for real-time predictions.
+We used three models 
 
-* Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear
-relationship between dependent and independent variables.
+* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions.
+
+* Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables.
+
+After reviewing our dataset, we also determined to use SMOTTENN as a potential 3rd model.
+
+* SMOTTENN performs well when the existing classes in a dataset aren't equally represented. In our dataset, the campign failures are much larger than the campaign successes. We used this to try to adjust the imbalance in our dataset. 
 
 ## Dashboard 
 
