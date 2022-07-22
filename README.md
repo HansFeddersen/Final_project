@@ -69,7 +69,7 @@
 
 ## Explanation of model choice, incluing benefits and limitations
 
-We used tested three models 
+We tested three models 
 
 * Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions. 
 
@@ -77,7 +77,7 @@ We used tested three models
 
 ![random forest classification](https://user-images.githubusercontent.com/99205688/180333844-ed464ee1-4d6a-4639-93d5-b150805a1f15.PNG)
 
-* Logistic regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables. 
+* Logistic regression with standard scaler performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables. 
 
 ![logistic regression](https://user-images.githubusercontent.com/99205688/180333826-564dd79b-513f-498e-b422-956603bff804.PNG)
 
