@@ -69,15 +69,23 @@
 
 ## Explanation of model choice, incluing benefits and limitations
 
-We used three models 
+We used tested three models 
 
-* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions.
+* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions. 
 
-* Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables.
+![random forest accuracy](https://user-images.githubusercontent.com/99205688/180333859-74c4e9d7-bb07-4ae9-ab90-55d181062138.PNG)
 
-After reviewing our dataset, we also determined to use SMOTTENN as a potential 3rd model.
+![random forest classification](https://user-images.githubusercontent.com/99205688/180333844-ed464ee1-4d6a-4639-93d5-b150805a1f15.PNG)
 
-* SMOTTENN performs well when the existing classes in a dataset aren't equally represented. In our dataset, the campign failures are much larger than the campaign successes. We used this to try to adjust the imbalance in our dataset. 
+* Logistic regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables. 
+
+![logistic regression](https://user-images.githubusercontent.com/99205688/180333826-564dd79b-513f-498e-b422-956603bff804.PNG)
+
+After reviewing our dataset, we also decided to try SMOTTENN as a potential 3rd model.
+
+* SMOTEENN performs well when the existing classes in a dataset aren't equally represented. In our dataset, the target feature of campign failures make up a much larger part of the dataset than the campaign successes. We used SMOTEENN to try to address this imbalance in our dataset. 
+
+![SMOTENN](https://user-images.githubusercontent.com/99205688/180333881-1fe5be18-b48a-4037-a62d-469bd4e53b6d.PNG)
 
 ## Dashboard 
 
