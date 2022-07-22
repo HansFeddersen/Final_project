@@ -68,11 +68,25 @@
 
 ## Explanation of model choice, incluing benefits and limitations
 
-* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also 
-make the model slower and possibily ineffective for real-time predictions.
+We tested three models 
 
-* Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear
-relationship between dependent and independent variables.
+* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions. The accuracy score was 61%.
+
+![random forest accuracy](https://user-images.githubusercontent.com/99205688/180333859-74c4e9d7-bb07-4ae9-ab90-55d181062138.PNG)
+
+![random forest classification](https://user-images.githubusercontent.com/99205688/180333844-ed464ee1-4d6a-4639-93d5-b150805a1f15.PNG)
+
+* Logistic regression with standard scaler performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables. The accuracy score was 88%.
+
+![logistic regression](https://user-images.githubusercontent.com/99205688/180333826-564dd79b-513f-498e-b422-956603bff804.PNG)
+
+## Explanation of changes in model choice
+
+After reviewing our dataset, we also decided to try SMOTTENN as a potential 3rd model.
+
+* SMOTEENN performs well when the existing classes in a dataset aren't equally represented. In our dataset, the target feature of campign failures make up a much larger part of the dataset than the campaign successes. We used SMOTEENN to try to address this imbalance in our dataset. The accuracy score was 68% which is higher than the Random Forest model, but not as high as the Logistic regression.
+
+![SMOTENN](https://user-images.githubusercontent.com/99205688/180333881-1fe5be18-b48a-4037-a62d-469bd4e53b6d.PNG)
 
 ## Dashboard 
 
