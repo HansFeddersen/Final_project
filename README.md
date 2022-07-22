@@ -7,8 +7,8 @@
 
 ## Reason for Selecting Topic
 
-* Machine learning models can help improve direct marketing campaigns from the bank to target potential future customers
-* This information can be used by other banks or businesses to determine the efficency of direct marketing campaigns.
+* Machine learning models can help improve direct marketing campaigns from a bank to target potential future customers
+* This information can be used by other banks or businesses to determine the efficency of diferrent direct marketing campaigns.
 
 ## Description of the Data Source
 
