@@ -3,7 +3,7 @@
 
 ## Selected Topic
 
-***Direct Bank Marketing***
+***Direct Bank Marketing Campaigns***
 
 ## Reason for Selecting Topic
 
