@@ -8,7 +8,7 @@
 ## Reason for Selecting Topic
 
 * Machine learning models can help improve direct marketing campaigns from a bank to target potential future customers
-* This information can be used by other banks or businesses to determine the efficency of diferrent direct marketing campaigns.
+* This information can be used by other banks or businesses to determine the efficency of diferrent direct marketing campaigns
 
 ## Description of the Data Source
 
@@ -93,7 +93,7 @@ After reviewing our dataset, we also decided to try SMOTTENN as a potential 3rd 
 ## Dashboard 
 
 **The Dashboard can be reviewed using the following link:**
-- https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes
+[Link to Dashboard](https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes)
 
 ### Description of tools and interactive elements
 * Planning to use Tableau to create interactive charts that will address which demographic variables have the most importance while determining whether the client subscribes or not.
