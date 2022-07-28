@@ -74,7 +74,7 @@
 
 ![random forest classification](https://user-images.githubusercontent.com/99205688/180333844-ed464ee1-4d6a-4639-93d5-b150805a1f15.PNG)
 
-* Logistic regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables. The data was scaled to fit the regression mode and resulted in an accuracy score of 88%, but the Confusion matrix was imbalanced. As the data remained imbalanced, we decided to try to undersample the data to even out the Yes/No Target features 
+* Logistic regression is easy to implement, interpret and effiicent to train, but there is an assumption of linearity between the dependent variable and the independent variables. The data was scaled to fit the regression mode and resulted in an accuracy score of 88%, but the Confusion matrix was imbalanced. As the data remained imbalanced, we decided to try to undersample the data to even out the Yes/No Target features 
 
 ![logistic regression](https://user-images.githubusercontent.com/99205688/180333826-564dd79b-513f-498e-b422-956603bff804.PNG)
 
