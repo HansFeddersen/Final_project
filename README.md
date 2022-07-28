@@ -70,11 +70,21 @@
 
 * Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions. The random split for training resulted in a low accuracy score of 61%, which could be due to the importance of the dependent variable.
 
+Confusion Matrix
+
+![confusion matrix forest](https://user-images.githubusercontent.com/99205688/181628726-0a49913c-e584-4701-b093-237b4d4370c4.PNG)
+
+
 ![random forest accuracy](https://user-images.githubusercontent.com/99205688/180333859-74c4e9d7-bb07-4ae9-ab90-55d181062138.PNG)
 
 ![random forest classification](https://user-images.githubusercontent.com/99205688/180333844-ed464ee1-4d6a-4639-93d5-b150805a1f15.PNG)
 
 * Logistic regression is easy to implement, interpret and effiicent to train, but there is an assumption of linearity between the dependent variable and the independent variables. The data was scaled to fit the regression mode and resulted in an accuracy score of 88%, but the Confusion matrix was imbalanced. As the data remained imbalanced, we decided to try to undersample the data to even out the Yes/No Target features 
+
+Confusion Matrix
+
+![confusion matrix regression](https://user-images.githubusercontent.com/99205688/181628778-7310deac-76b3-44fa-a035-293b5c6b0dfd.PNG)
+
 
 ![logistic regression](https://user-images.githubusercontent.com/99205688/180333826-564dd79b-513f-498e-b422-956603bff804.PNG)
 
@@ -83,6 +93,10 @@
 After reviewing our dataset, we also decided to try SMOTTENN as a potential 3rd model.
 
 * SMOTEENN performs well when the existing classes in a dataset aren't equally represented. In our dataset, the target feature of campign failures make up a much larger part of the dataset than the campaign successes. We used SMOTEENN which reduced the data to support the prediction of the minority ( Yes’s ) class to increase model performance based on most important features. The resulting Confusion matrix appears more balanced with an accuracy score of 68%.
+
+Confusion Matrix
+
+![confusion matrix smoteenn](https://user-images.githubusercontent.com/99205688/181628817-375cc1a9-1a1c-41bd-896f-845d7712447b.PNG)
 
 ![SMOTENN](https://user-images.githubusercontent.com/99205688/180333881-1fe5be18-b48a-4037-a62d-469bd4e53b6d.PNG)
 
