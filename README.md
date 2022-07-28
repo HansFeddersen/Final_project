@@ -3,12 +3,12 @@
 
 ## Selected Topic
 
-***Direct Bank Marketing***
+***Direct Bank Marketing Campaigns***
 
 ## Reason for Selecting Topic
 
 * Machine learning models can help improve direct marketing campaigns from a bank to target potential future customers
-* This information can be used by other banks or businesses to determine the efficency of diferrent direct marketing campaigns.
+* This information can be used by other banks or businesses to determine the efficency of diferrent direct marketing campaigns
 
 ## Description of the Data Source
 
@@ -26,14 +26,6 @@
 
 * The classification goal is to predict if the client will subscribe a term deposit.
 * Which demographic variables have the most importance while determining whether the client subscribes or not?
-
-## Communication protocols 
-
-**The team will comunicate in three different ways:**
-
-* Slack Channel (Final-Project-Bank-Marketing-Data)
-* Zoom (meetings during class schedule)
-* Extra Zoom meetings when needed.
 
 ## Description of the data exploration and analysis phase of the project
 
@@ -74,18 +66,34 @@
 
 * Our target feature "y" indicates whether a client subscribed by making a term deposit. We will use this target to train and test the data set.
 
-## Explanation of model choice, incluing benefits and limitations
+## Explanation of model choice, including benefits and limitations, and training the model
 
-* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also 
-make the model slower and possibily ineffective for real-time predictions.
+* Random forest can be effective at reducing the risk of overfitting a training model and improve accuracy, but a large number of decision trees can also make the model slower and possibily ineffective for real-time predictions. The random split for training resulted in a low accuracy score of 61%, which could be due to the importance of the dependent variable.
 
-* Linear regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear
-relationship between dependent and independent variables.
+![random forest accuracy](https://user-images.githubusercontent.com/99205688/180333859-74c4e9d7-bb07-4ae9-ab90-55d181062138.PNG)
+
+![random forest classification](https://user-images.githubusercontent.com/99205688/180333844-ed464ee1-4d6a-4639-93d5-b150805a1f15.PNG)
+
+* Logistic regression performs well for linearly separable data and is easy to train, but can be prone to overfitting and there is an assumption of the linear relationship between dependent and independent variables. The data was scaled to fit the regression mode and resulted in an accuracy score of 88%, but the Confusion matrix was imbalanced. As the data remained imbalanced, we decided to try to undersample the data to even out the Yes/No Target features 
+
+![logistic regression](https://user-images.githubusercontent.com/99205688/180333826-564dd79b-513f-498e-b422-956603bff804.PNG)
+
+## Explanation of changes in model choice
+
+After reviewing our dataset, we also decided to try SMOTTENN as a potential 3rd model.
+
+* SMOTEENN performs well when the existing classes in a dataset aren't equally represented. In our dataset, the target feature of campign failures make up a much larger part of the dataset than the campaign successes. We used SMOTEENN which reduced the data to support the prediction of the minority ( Yes’s ) class to increase model performance based on most important features. The resulting Confusion matrix appears more balanced with an accuracy score of 68%.
+
+![SMOTENN](https://user-images.githubusercontent.com/99205688/180333881-1fe5be18-b48a-4037-a62d-469bd4e53b6d.PNG)
+
+## Additional Training
+
+* We can continue to iterate sampling data to achieve a better accuracy score using the SMOTTENN Model.
 
 ## Dashboard 
 
 **The Dashboard can be reviewed using the following link:**
-- https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes
+[Link to Dashboard](https://public.tableau.com/app/profile/hans.feddersen/viz/FP_Dash_2/Dashboard2?publish=yes)
 
 ### Description of tools and interactive elements
 * Planning to use Tableau to create interactive charts that will address which demographic variables have the most importance while determining whether the client subscribes or not.
